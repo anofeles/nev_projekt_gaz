@@ -1,0 +1,65 @@
+import React from 'react';
+import {
+  View,
+  StyleSheet,
+  ImageBackground,
+  Text,
+  TouchableOpacity
+} from 'react-native';
+
+export const Post = ({ post, onOpen, task }) => {
+  if (task === 'booked') {
+    return (
+      <TouchableOpacity activeOpacity={0.7} onPress={() => onOpen(post)}>
+        <View style={styles.post}>
+          <ImageBackground style={styles.image} source={{ uri: post.img }}>
+            <View style={styles.textWrap}>
+              <Text style={styles.title}>{post.name}</Text>
+              <Text style={styles.title}>{post.price}</Text>
+            </View>
+          </ImageBackground>
+        </View>
+      </TouchableOpacity>
+    );
+  }
+  if (task === 'task') {
+    return (
+      <TouchableOpacity activeOpacity={0.7} onPress={() => onOpen(post)}>
+        <View style={styles.post}>
+          <ImageBackground style={styles.image} source={{ uri: post.img }}>
+            <View style={styles.taskWrap}>
+              <Text style={styles.title}>{post.name}</Text>
+              <Text style={styles.title}>{post.price}</Text>
+            </View>
+          </ImageBackground>
+        </View>
+      </TouchableOpacity>
+    );
+  }
+};
+
+const styles = StyleSheet.create({
+  post: {
+    marginBottom: 15,
+    overflow: 'hidden'
+  },
+  image: {
+    width: '100%',
+    height: 200
+  },
+  textWrap: {
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    paddingVertical: 5,
+    alignItems: 'center',
+    width: '100%'
+  },
+  taskWrap: {
+    backgroundColor: 'rgba(0,255,0,0.5)',
+    paddingVertical: 5,
+    alignItems: 'center',
+    width: '100%'
+  },
+  title: {
+    color: '#fff'
+  }
+});
