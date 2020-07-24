@@ -7,7 +7,10 @@ const PUSH_ENDPOINT = 'http://api.botasi.ge/notification/';
 const POST_ENDPOINT = 'http://api.botasi.ge/post/';
 
 export const loadPosts = emai => {
+
     return async dispatch => {
+        const posts = INFO.postData(emai);
+        console.log(posts)
         dispatch({
             type: LOAD_POSTS,
             payload: DATA,

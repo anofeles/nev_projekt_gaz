@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960460b0-1885-4915-a808-8ddbcd4e03ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/AppNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/AppNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/MyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/MyInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screen/Tasck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screen/Tasck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stor/actopns/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stor/actopns/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stor/json/jsonInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stor/json/jsonInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -48,7 +54,9 @@
       <updated>1592312947806</updated>
       <workItem from="1592312949239" duration="435000" />
       <workItem from="1592313501811" duration="7875000" />
-      <workItem from="1592479358530" duration="2115000" />
+      <workItem from="1592479358530" duration="9809000" />
+      <workItem from="1595250093424" duration="9066000" />
+      <workItem from="1595497898296" duration="12388000" />
     </task>
     <servers />
   </component>
@@ -60,5 +68,13 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2460" y="255" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592316200807" />
+    <state x="2587" y="253" width="585" height="534" key="find.popup" timestamp="1595252844681">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2587" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595252844681" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595504071067">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595504071067" />
   </component>
 </project>

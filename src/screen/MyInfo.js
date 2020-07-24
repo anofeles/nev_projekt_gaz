@@ -3,6 +3,9 @@ import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import {useDispatch, useSelector} from "react-redux";
 import {myInfoTask} from "../stor/actopns/post";
 
+import * as Cellular from 'expo-cellular';
+
+
 export const MyInfo = () => {
 
   const dispatch = useDispatch();
@@ -11,7 +14,11 @@ export const MyInfo = () => {
   }, [dispatch]);
 
   const allPost = useSelector(state => state.post.myinfo);
-
+  const local = async () => {
+   const gsm = Cellular.mobileCountryCode;
+    console.log(gsm);
+  }
+  local();
   return (
     <View style={styles.raw}>
       {
